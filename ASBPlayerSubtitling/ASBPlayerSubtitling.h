@@ -24,6 +24,8 @@
 @property (nonatomic, assign) BOOL visible;
 
 - (void)loadSubtitlesAtURL:(NSURL *)url error:(NSError **)error;
+- (void)loadWebVTTSubtitlesAtURL:(NSURL *)url error:(NSError **)error;
+
 - (void)loadSRTContent:(NSString *)string error:(NSError **)error;
 - (void)removeSubtitles;
 
