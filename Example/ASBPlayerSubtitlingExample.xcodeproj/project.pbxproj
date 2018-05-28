@@ -21,15 +21,12 @@
 		4A0BC9341AC31714000904A2 /* sliderThumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A0BC92E1AC31714000904A2 /* sliderThumb@2x.png */; };
 		4A0BC93E1AC31AA4000904A2 /* ASBPlayerSubtitling.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0BC93D1AC31AA4000904A2 /* ASBPlayerSubtitling.m */; };
 		4A0BC9401AC31C7B000904A2 /* welcome.srt in Resources */ = {isa = PBXBuildFile; fileRef = 4A0BC93F1AC31C7B000904A2 /* welcome.srt */; };
-		9339AB902298D5F58FE3FFB6 /* libPods-ASBPlayerSubtitlingExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC451965C712253A1D974862 /* libPods-ASBPlayerSubtitlingExample.a */; };
-		F654DA73C37C2F1646AEC07F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC330590DF6F8B0B77845089 /* libPods.a */; };
+		AC38C51B8CBB21836A917F0F /* libPods-ASBPlayerSubtitlingExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76EBDB8E40A605075481464B /* libPods-ASBPlayerSubtitlingExample.a */; };
 		FF706DFC20BBF360002125A0 /* NSString+ASBRegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = FF706DFB20BBF360002125A0 /* NSString+ASBRegularExpression.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		07425CE12573798AB16F58AF /* Pods-ASBPlayerSubtitlingExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASBPlayerSubtitlingExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASBPlayerSubtitlingExample/Pods-ASBPlayerSubtitlingExample.debug.xcconfig"; sourceTree = "<group>"; };
-		1CBAABE9F880F0FD13E247C1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		28816A0F5DC302DE300E6131 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		059287F5601B90D3529D1112 /* Pods-ASBPlayerSubtitlingExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASBPlayerSubtitlingExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASBPlayerSubtitlingExample/Pods-ASBPlayerSubtitlingExample.debug.xcconfig"; sourceTree = "<group>"; };
 		4A0BC8FF1AC313F8000904A2 /* ASBPlayerSubtitlingExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASBPlayerSubtitlingExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A0BC9031AC313F8000904A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A0BC9041AC313F8000904A2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -49,9 +46,8 @@
 		4A0BC93C1AC31AA4000904A2 /* ASBPlayerSubtitling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBPlayerSubtitling.h; sourceTree = "<group>"; };
 		4A0BC93D1AC31AA4000904A2 /* ASBPlayerSubtitling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBPlayerSubtitling.m; sourceTree = "<group>"; };
 		4A0BC93F1AC31C7B000904A2 /* welcome.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = welcome.srt; sourceTree = "<group>"; };
-		A2722FFD6062AE05224B730F /* Pods-ASBPlayerSubtitlingExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASBPlayerSubtitlingExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASBPlayerSubtitlingExample/Pods-ASBPlayerSubtitlingExample.release.xcconfig"; sourceTree = "<group>"; };
-		AC451965C712253A1D974862 /* libPods-ASBPlayerSubtitlingExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASBPlayerSubtitlingExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC330590DF6F8B0B77845089 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		76EBDB8E40A605075481464B /* libPods-ASBPlayerSubtitlingExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASBPlayerSubtitlingExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E772E8E09A39AFEBDA5DEA34 /* Pods-ASBPlayerSubtitlingExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASBPlayerSubtitlingExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASBPlayerSubtitlingExample/Pods-ASBPlayerSubtitlingExample.release.xcconfig"; sourceTree = "<group>"; };
 		FF706DFA20BBF360002125A0 /* NSString+ASBRegularExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ASBRegularExpression.h"; sourceTree = "<group>"; };
 		FF706DFB20BBF360002125A0 /* NSString+ASBRegularExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ASBRegularExpression.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,33 +57,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F654DA73C37C2F1646AEC07F /* libPods.a in Frameworks */,
-				9339AB902298D5F58FE3FFB6 /* libPods-ASBPlayerSubtitlingExample.a in Frameworks */,
+				AC38C51B8CBB21836A917F0F /* libPods-ASBPlayerSubtitlingExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		057EEC1B454D549FA332F302 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				28816A0F5DC302DE300E6131 /* Pods.debug.xcconfig */,
-				1CBAABE9F880F0FD13E247C1 /* Pods.release.xcconfig */,
-				07425CE12573798AB16F58AF /* Pods-ASBPlayerSubtitlingExample.debug.xcconfig */,
-				A2722FFD6062AE05224B730F /* Pods-ASBPlayerSubtitlingExample.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		4A0BC8F61AC313F8000904A2 = {
 			isa = PBXGroup;
 			children = (
 				4A0BC9011AC313F8000904A2 /* Example */,
 				4A0BC9001AC313F8000904A2 /* Products */,
-				057EEC1B454D549FA332F302 /* Pods */,
 				4A0BC9281AC31714000904A2 /* Resources */,
-				C7FC1F457D9FBE6CDD3CA0A1 /* Frameworks */,
+				4C72E807FCAF458AF437B33F /* Pods */,
+				B9606A0EBBEB48EF405760FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,11 +134,19 @@
 			path = ../../ASBPlayerSubtitling;
 			sourceTree = "<group>";
 		};
-		C7FC1F457D9FBE6CDD3CA0A1 /* Frameworks */ = {
+		4C72E807FCAF458AF437B33F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DC330590DF6F8B0B77845089 /* libPods.a */,
-				AC451965C712253A1D974862 /* libPods-ASBPlayerSubtitlingExample.a */,
+				059287F5601B90D3529D1112 /* Pods-ASBPlayerSubtitlingExample.debug.xcconfig */,
+				E772E8E09A39AFEBDA5DEA34 /* Pods-ASBPlayerSubtitlingExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B9606A0EBBEB48EF405760FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76EBDB8E40A605075481464B /* libPods-ASBPlayerSubtitlingExample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -166,8 +158,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A0BC9221AC313F9000904A2 /* Build configuration list for PBXNativeTarget "ASBPlayerSubtitlingExample" */;
 			buildPhases = (
-				077D058163024CD757C85B20 /* [CP] Check Pods Manifest.lock */,
-				3943A9B80BCD8994501A37D7 /* Check Pods Manifest.lock */,
+				426F39AB4BE0A54BF59EF10F /* [CP] Check Pods Manifest.lock */,
 				4A0BC8FB1AC313F8000904A2 /* Sources */,
 				4A0BC8FC1AC313F8000904A2 /* Frameworks */,
 				4A0BC8FD1AC313F8000904A2 /* Resources */,
@@ -234,7 +225,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		077D058163024CD757C85B20 /* [CP] Check Pods Manifest.lock */ = {
+		426F39AB4BE0A54BF59EF10F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -250,21 +241,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3943A9B80BCD8994501A37D7 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -384,7 +360,7 @@
 		};
 		4A0BC9231AC313F9000904A2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07425CE12573798AB16F58AF /* Pods-ASBPlayerSubtitlingExample.debug.xcconfig */;
+			baseConfigurationReference = 059287F5601B90D3529D1112 /* Pods-ASBPlayerSubtitlingExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Example/Info.plist;
@@ -395,7 +371,7 @@
 		};
 		4A0BC9241AC313F9000904A2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A2722FFD6062AE05224B730F /* Pods-ASBPlayerSubtitlingExample.release.xcconfig */;
+			baseConfigurationReference = E772E8E09A39AFEBDA5DEA34 /* Pods-ASBPlayerSubtitlingExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Example/Info.plist;
