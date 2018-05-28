@@ -19,9 +19,9 @@
 		4A0BC9321AC31714000904A2 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A0BC92C1AC31714000904A2 /* play@2x.png */; };
 		4A0BC9331AC31714000904A2 /* sliderThumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A0BC92D1AC31714000904A2 /* sliderThumb.png */; };
 		4A0BC9341AC31714000904A2 /* sliderThumb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A0BC92E1AC31714000904A2 /* sliderThumb@2x.png */; };
-		4A0BC93E1AC31AA4000904A2 /* ASBPlayerSubtitling.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0BC93D1AC31AA4000904A2 /* ASBPlayerSubtitling.m */; };
 		4A0BC9401AC31C7B000904A2 /* welcome.srt in Resources */ = {isa = PBXBuildFile; fileRef = 4A0BC93F1AC31C7B000904A2 /* welcome.srt */; };
 		AC38C51B8CBB21836A917F0F /* libPods-ASBPlayerSubtitlingExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76EBDB8E40A605075481464B /* libPods-ASBPlayerSubtitlingExample.a */; };
+		FF57A34420BBFF820083DAF4 /* ASBPlayerSubtitling.m in Sources */ = {isa = PBXBuildFile; fileRef = FF57A34220BBFF810083DAF4 /* ASBPlayerSubtitling.m */; };
 		FF706DFC20BBF360002125A0 /* NSString+ASBRegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = FF706DFB20BBF360002125A0 /* NSString+ASBRegularExpression.m */; };
 /* End PBXBuildFile section */
 
@@ -43,11 +43,11 @@
 		4A0BC92C1AC31714000904A2 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
 		4A0BC92D1AC31714000904A2 /* sliderThumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sliderThumb.png; sourceTree = "<group>"; };
 		4A0BC92E1AC31714000904A2 /* sliderThumb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sliderThumb@2x.png"; sourceTree = "<group>"; };
-		4A0BC93C1AC31AA4000904A2 /* ASBPlayerSubtitling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBPlayerSubtitling.h; sourceTree = "<group>"; };
-		4A0BC93D1AC31AA4000904A2 /* ASBPlayerSubtitling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBPlayerSubtitling.m; sourceTree = "<group>"; };
 		4A0BC93F1AC31C7B000904A2 /* welcome.srt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = welcome.srt; sourceTree = "<group>"; };
 		76EBDB8E40A605075481464B /* libPods-ASBPlayerSubtitlingExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASBPlayerSubtitlingExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E772E8E09A39AFEBDA5DEA34 /* Pods-ASBPlayerSubtitlingExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASBPlayerSubtitlingExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASBPlayerSubtitlingExample/Pods-ASBPlayerSubtitlingExample.release.xcconfig"; sourceTree = "<group>"; };
+		FF57A34220BBFF810083DAF4 /* ASBPlayerSubtitling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBPlayerSubtitling.m; sourceTree = "<group>"; };
+		FF57A34320BBFF810083DAF4 /* ASBPlayerSubtitling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBPlayerSubtitling.h; sourceTree = "<group>"; };
 		FF706DFA20BBF360002125A0 /* NSString+ASBRegularExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ASBRegularExpression.h"; sourceTree = "<group>"; };
 		FF706DFB20BBF360002125A0 /* NSString+ASBRegularExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ASBRegularExpression.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -125,8 +125,8 @@
 		4A0BC93B1AC31AA4000904A2 /* ASBPlayerSubtitling */ = {
 			isa = PBXGroup;
 			children = (
-				4A0BC93C1AC31AA4000904A2 /* ASBPlayerSubtitling.h */,
-				4A0BC93D1AC31AA4000904A2 /* ASBPlayerSubtitling.m */,
+				FF57A34320BBFF810083DAF4 /* ASBPlayerSubtitling.h */,
+				FF57A34220BBFF810083DAF4 /* ASBPlayerSubtitling.m */,
 				FF706DFA20BBF360002125A0 /* NSString+ASBRegularExpression.h */,
 				FF706DFB20BBF360002125A0 /* NSString+ASBRegularExpression.m */,
 			);
@@ -250,7 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A0BC93E1AC31AA4000904A2 /* ASBPlayerSubtitling.m in Sources */,
+				FF57A34420BBFF820083DAF4 /* ASBPlayerSubtitling.m in Sources */,
 				FF706DFC20BBF360002125A0 /* NSString+ASBRegularExpression.m in Sources */,
 				4A0BC90B1AC313F8000904A2 /* ViewController.m in Sources */,
 				4A0BC9081AC313F8000904A2 /* AppDelegate.m in Sources */,
