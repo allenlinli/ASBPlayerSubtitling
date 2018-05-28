@@ -23,6 +23,7 @@
 		4A0BC9401AC31C7B000904A2 /* welcome.srt in Resources */ = {isa = PBXBuildFile; fileRef = 4A0BC93F1AC31C7B000904A2 /* welcome.srt */; };
 		9339AB902298D5F58FE3FFB6 /* libPods-ASBPlayerSubtitlingExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AC451965C712253A1D974862 /* libPods-ASBPlayerSubtitlingExample.a */; };
 		F654DA73C37C2F1646AEC07F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC330590DF6F8B0B77845089 /* libPods.a */; };
+		FF706DFC20BBF360002125A0 /* NSString+ASBRegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = FF706DFB20BBF360002125A0 /* NSString+ASBRegularExpression.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,8 @@
 		A2722FFD6062AE05224B730F /* Pods-ASBPlayerSubtitlingExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASBPlayerSubtitlingExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASBPlayerSubtitlingExample/Pods-ASBPlayerSubtitlingExample.release.xcconfig"; sourceTree = "<group>"; };
 		AC451965C712253A1D974862 /* libPods-ASBPlayerSubtitlingExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASBPlayerSubtitlingExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC330590DF6F8B0B77845089 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF706DFA20BBF360002125A0 /* NSString+ASBRegularExpression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+ASBRegularExpression.h"; sourceTree = "<group>"; };
+		FF706DFB20BBF360002125A0 /* NSString+ASBRegularExpression.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+ASBRegularExpression.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 			children = (
 				4A0BC93C1AC31AA4000904A2 /* ASBPlayerSubtitling.h */,
 				4A0BC93D1AC31AA4000904A2 /* ASBPlayerSubtitling.m */,
+				FF706DFA20BBF360002125A0 /* NSString+ASBRegularExpression.h */,
+				FF706DFB20BBF360002125A0 /* NSString+ASBRegularExpression.m */,
 			);
 			name = ASBPlayerSubtitling;
 			path = ../../ASBPlayerSubtitling;
@@ -270,6 +275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A0BC93E1AC31AA4000904A2 /* ASBPlayerSubtitling.m in Sources */,
+				FF706DFC20BBF360002125A0 /* NSString+ASBRegularExpression.m in Sources */,
 				4A0BC90B1AC313F8000904A2 /* ViewController.m in Sources */,
 				4A0BC9081AC313F8000904A2 /* AppDelegate.m in Sources */,
 				4A0BC9051AC313F8000904A2 /* main.m in Sources */,
