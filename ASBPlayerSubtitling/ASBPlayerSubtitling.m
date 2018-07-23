@@ -40,6 +40,7 @@ static CGFloat *const DefaultNbFramesPerSecond = 30;
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
     [self setup];
 }
 
