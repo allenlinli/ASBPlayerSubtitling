@@ -10,7 +10,7 @@
 #import <UIKit/UIKit.h>
 #import "NSString+ASBRegularExpression.h"
 
-static CGFloat *const DefaultNbFramesPerSecond = 30;
+static CGFloat const DefaultNbFramesPerSecond = 30;
 
 @implementation ASBSubtitle
 @end
