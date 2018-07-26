@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		213936A25B4BE2D06277352CD4CCF92C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816F9C84604D0A0E278068F9CE41BE0C /* Foundation.framework */; };
+		31EF8379D974A37E669AAE95B62401EA /* Pods-ASBPlayerSubtitlingExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C242FD970DE2E476A8B21C666293995D /* Pods-ASBPlayerSubtitlingExample-dummy.m */; };
+		3291D292A1742EF26EEB8FDE6FCEBD7A /* ASBPlayerScrubbing.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E2244CDC40E9931FA4B2263805C916F /* ASBPlayerScrubbing.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3828939D35245AB067BFF553D43896DB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 821CFDBF0A2524FD8A434A817A73D221 /* CoreGraphics.framework */; };
+		61F5A326F762176F5C2F5C3C5F2C94FE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B100855FA2779C562205291CC0CB5A65 /* AVFoundation.framework */; };
+		951D994E11B1BE9887716DDB68F3F0D0 /* ASBPlayerScrubbing-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9591B101BF998FC5708996EEABE76E58 /* ASBPlayerScrubbing-dummy.m */; };
+		A40507A4CD8FD8B6DC9EA2FBE319DBB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 816F9C84604D0A0E278068F9CE41BE0C /* Foundation.framework */; };
+		DC9BB35A238E9EC0BEBE19AB444E6661 /* ASBPlayerScrubbing.m in Sources */ = {isa = PBXBuildFile; fileRef = 792363724F519CB4D8EFE61D306F7999 /* ASBPlayerScrubbing.m */; };
+		F37AB4E069ED841DDBD528A53EBC4C4B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7F9931047204FFE1F46003E577F17C /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4415FF4EDA356D3B20D44BF333ACB868 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F4B1461138C7F64E97A7ADD0B08C3BB;
+			remoteInfo = ASBPlayerScrubbing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32F127BC9EEFE9AA8CE8F6D403889E69 /* Pods-ASBPlayerSubtitlingExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASBPlayerSubtitlingExample-frameworks.sh"; sourceTree = "<group>"; };
+		4E2244CDC40E9931FA4B2263805C916F /* ASBPlayerScrubbing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASBPlayerScrubbing.h; path = ASBPlayerScrubbing/ASBPlayerScrubbing.h; sourceTree = "<group>"; };
+		5E3CAA6D5A98D7A520018245FE363990 /* Pods-ASBPlayerSubtitlingExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASBPlayerSubtitlingExample-resources.sh"; sourceTree = "<group>"; };
+		69CFFF828F70DCA9423E3FEE73DE3DCD /* Pods-ASBPlayerSubtitlingExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASBPlayerSubtitlingExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6AC56D198F874FD4FB846A4B808784C9 /* Pods-ASBPlayerSubtitlingExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASBPlayerSubtitlingExample.debug.xcconfig"; sourceTree = "<group>"; };
+		792363724F519CB4D8EFE61D306F7999 /* ASBPlayerScrubbing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASBPlayerScrubbing.m; path = ASBPlayerScrubbing/ASBPlayerScrubbing.m; sourceTree = "<group>"; };
+		816F9C84604D0A0E278068F9CE41BE0C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		821CFDBF0A2524FD8A434A817A73D221 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		8C7F9931047204FFE1F46003E577F17C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9591B101BF998FC5708996EEABE76E58 /* ASBPlayerScrubbing-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASBPlayerScrubbing-dummy.m"; sourceTree = "<group>"; };
+		9D052566E202F6BB9C55DDA9003749BB /* ASBPlayerScrubbing.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASBPlayerScrubbing.xcconfig; sourceTree = "<group>"; };
+		A2F45C408C7BE8761101983F4A3CD723 /* libPods-ASBPlayerSubtitlingExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-ASBPlayerSubtitlingExample.a"; path = "libPods-ASBPlayerSubtitlingExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B100855FA2779C562205291CC0CB5A65 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		B5EACF53149D02F40E95B993F1F32455 /* libASBPlayerScrubbing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libASBPlayerScrubbing.a; path = libASBPlayerScrubbing.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C242FD970DE2E476A8B21C666293995D /* Pods-ASBPlayerSubtitlingExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASBPlayerSubtitlingExample-dummy.m"; sourceTree = "<group>"; };
+		DADB7709B9F91A889B6F4C35A8782B39 /* Pods-ASBPlayerSubtitlingExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASBPlayerSubtitlingExample.release.xcconfig"; sourceTree = "<group>"; };
+		EBCDAC3AF7A55D0A5D337A56E5F16BD1 /* ASBPlayerScrubbing-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASBPlayerScrubbing-prefix.pch"; sourceTree = "<group>"; };
+		F6CC654F424AA2F5249776DA45187777 /* Pods-ASBPlayerSubtitlingExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASBPlayerSubtitlingExample-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A0B99745E87833B2C789A39D3023CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40507A4CD8FD8B6DC9EA2FBE319DBB1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6388D59E5364438FFC777B257D35B52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61F5A326F762176F5C2F5C3C5F2C94FE /* AVFoundation.framework in Frameworks */,
+				3828939D35245AB067BFF553D43896DB /* CoreGraphics.framework in Frameworks */,
+				213936A25B4BE2D06277352CD4CCF92C /* Foundation.framework in Frameworks */,
+				F37AB4E069ED841DDBD528A53EBC4C4B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3BFA6EB377F63A0A7506642B71E6831 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2510BCD04122742A22C6290A7CBDFD00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5EACF53149D02F40E95B993F1F32455 /* libASBPlayerScrubbing.a */,
+				A2F45C408C7BE8761101983F4A3CD723 /* libPods-ASBPlayerSubtitlingExample.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				EB7598B4F7215DAE305FD8AF474B3174 /* Pods */,
+				2510BCD04122742A22C6290A7CBDFD00 /* Products */,
+				9A26D8B8A64B28786DC7713DFF66B194 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		844CB90014AB8D3B6EF3A8B766A8626D /* Pods-ASBPlayerSubtitlingExample */ = {
+			isa = PBXGroup;
+			children = (
+				69CFFF828F70DCA9423E3FEE73DE3DCD /* Pods-ASBPlayerSubtitlingExample-acknowledgements.markdown */,
+				F6CC654F424AA2F5249776DA45187777 /* Pods-ASBPlayerSubtitlingExample-acknowledgements.plist */,
+				C242FD970DE2E476A8B21C666293995D /* Pods-ASBPlayerSubtitlingExample-dummy.m */,
+				32F127BC9EEFE9AA8CE8F6D403889E69 /* Pods-ASBPlayerSubtitlingExample-frameworks.sh */,
+				5E3CAA6D5A98D7A520018245FE363990 /* Pods-ASBPlayerSubtitlingExample-resources.sh */,
+				6AC56D198F874FD4FB846A4B808784C9 /* Pods-ASBPlayerSubtitlingExample.debug.xcconfig */,
+				DADB7709B9F91A889B6F4C35A8782B39 /* Pods-ASBPlayerSubtitlingExample.release.xcconfig */,
+			);
+			name = "Pods-ASBPlayerSubtitlingExample";
+			path = "Target Support Files/Pods-ASBPlayerSubtitlingExample";
+			sourceTree = "<group>";
+		};
+		897679FED443ADEE881371BF2F0E7A91 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D052566E202F6BB9C55DDA9003749BB /* ASBPlayerScrubbing.xcconfig */,
+				9591B101BF998FC5708996EEABE76E58 /* ASBPlayerScrubbing-dummy.m */,
+				EBCDAC3AF7A55D0A5D337A56E5F16BD1 /* ASBPlayerScrubbing-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ASBPlayerScrubbing";
+			sourceTree = "<group>";
+		};
+		9A26D8B8A64B28786DC7713DFF66B194 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				844CB90014AB8D3B6EF3A8B766A8626D /* Pods-ASBPlayerSubtitlingExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A2985EEC0D245C78560DF6885802E008 /* ASBPlayerScrubbing */ = {
+			isa = PBXGroup;
+			children = (
+				4E2244CDC40E9931FA4B2263805C916F /* ASBPlayerScrubbing.h */,
+				792363724F519CB4D8EFE61D306F7999 /* ASBPlayerScrubbing.m */,
+				897679FED443ADEE881371BF2F0E7A91 /* Support Files */,
+			);
+			name = ASBPlayerScrubbing;
+			path = ASBPlayerScrubbing;
+			sourceTree = "<group>";
+		};
+		B3BFA6EB377F63A0A7506642B71E6831 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B100855FA2779C562205291CC0CB5A65 /* AVFoundation.framework */,
+				821CFDBF0A2524FD8A434A817A73D221 /* CoreGraphics.framework */,
+				816F9C84604D0A0E278068F9CE41BE0C /* Foundation.framework */,
+				8C7F9931047204FFE1F46003E577F17C /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EB7598B4F7215DAE305FD8AF474B3174 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A2985EEC0D245C78560DF6885802E008 /* ASBPlayerScrubbing */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		800AF05C8DB673D05F8EE747004DC268 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3291D292A1742EF26EEB8FDE6FCEBD7A /* ASBPlayerScrubbing.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F4B1461138C7F64E97A7ADD0B08C3BB /* ASBPlayerScrubbing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1B682B7929B06577E2F359A3194B77 /* Build configuration list for PBXNativeTarget "ASBPlayerScrubbing" */;
+			buildPhases = (
+				5F6CEC3B81713CE932C70EFC15379B25 /* Sources */,
+				F6388D59E5364438FFC777B257D35B52 /* Frameworks */,
+				800AF05C8DB673D05F8EE747004DC268 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASBPlayerScrubbing;
+			productName = ASBPlayerScrubbing;
+			productReference = B5EACF53149D02F40E95B993F1F32455 /* libASBPlayerScrubbing.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2B6A21A67BD36C7B84DBA41CBA122E02 /* Pods-ASBPlayerSubtitlingExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0F2A6832D3F17D0500F42A72AEA651C /* Build configuration list for PBXNativeTarget "Pods-ASBPlayerSubtitlingExample" */;
+			buildPhases = (
+				726501D4031C366F4139B11ACBB747A9 /* Sources */,
+				7A0B99745E87833B2C789A39D3023CAA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				262546B7DD66675CFD9DDB0B3FC5A9BF /* PBXTargetDependency */,
+			);
+			name = "Pods-ASBPlayerSubtitlingExample";
+			productName = "Pods-ASBPlayerSubtitlingExample";
+			productReference = A2F45C408C7BE8761101983F4A3CD723 /* libPods-ASBPlayerSubtitlingExample.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2510BCD04122742A22C6290A7CBDFD00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F4B1461138C7F64E97A7ADD0B08C3BB /* ASBPlayerScrubbing */,
+				2B6A21A67BD36C7B84DBA41CBA122E02 /* Pods-ASBPlayerSubtitlingExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F6CEC3B81713CE932C70EFC15379B25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951D994E11B1BE9887716DDB68F3F0D0 /* ASBPlayerScrubbing-dummy.m in Sources */,
+				DC9BB35A238E9EC0BEBE19AB444E6661 /* ASBPlayerScrubbing.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726501D4031C366F4139B11ACBB747A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31EF8379D974A37E669AAE95B62401EA /* Pods-ASBPlayerSubtitlingExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		262546B7DD66675CFD9DDB0B3FC5A9BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASBPlayerScrubbing;
+			target = 0F4B1461138C7F64E97A7ADD0B08C3BB /* ASBPlayerScrubbing */;
+			targetProxy = 4415FF4EDA356D3B20D44BF333ACB868 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19B17F5EC44CAEE8DB7F4E35A0F6DD15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D052566E202F6BB9C55DDA9003749BB /* ASBPlayerScrubbing.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ASBPlayerScrubbing/ASBPlayerScrubbing-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ASBPlayerScrubbing;
+				PRODUCT_NAME = ASBPlayerScrubbing;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C409D3AC58E241A4CD1EECE618F0ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D052566E202F6BB9C55DDA9003749BB /* ASBPlayerScrubbing.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/ASBPlayerScrubbing/ASBPlayerScrubbing-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = ASBPlayerScrubbing;
+				PRODUCT_NAME = ASBPlayerScrubbing;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60FB92955BB09EB5CC81923070DFB307 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		69BDB9B931AAF83CD811691B5F480487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DADB7709B9F91A889B6F4C35A8782B39 /* Pods-ASBPlayerSubtitlingExample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E303F336AF1EDCE08CCD98DE0D3DD37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F337EA53588EB80340E9603EE2BC5B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC56D198F874FD4FB846A4B808784C9 /* Pods-ASBPlayerSubtitlingExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E303F336AF1EDCE08CCD98DE0D3DD37 /* Debug */,
+				60FB92955BB09EB5CC81923070DFB307 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1B682B7929B06577E2F359A3194B77 /* Build configuration list for PBXNativeTarget "ASBPlayerScrubbing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B17F5EC44CAEE8DB7F4E35A0F6DD15 /* Debug */,
+				1C409D3AC58E241A4CD1EECE618F0ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0F2A6832D3F17D0500F42A72AEA651C /* Build configuration list for PBXNativeTarget "Pods-ASBPlayerSubtitlingExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F337EA53588EB80340E9603EE2BC5B5C /* Debug */,
+				69BDB9B931AAF83CD811691B5F480487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

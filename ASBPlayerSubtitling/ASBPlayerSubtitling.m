@@ -8,8 +8,9 @@
 
 #import "ASBPlayerSubtitling.h"
 #import <UIKit/UIKit.h>
+#import "NSString+ASBRegularExpression.h"
 
-static CGFloat *const DefaultNbFramesPerSecond = 30;
+static CGFloat const DefaultNbFramesPerSecond = 30;
 
 @implementation ASBSubtitle
 @end
@@ -39,6 +40,7 @@ static CGFloat *const DefaultNbFramesPerSecond = 30;
 
 - (void)awakeFromNib
 {
+    [super awakeFromNib];
     [self setup];
 }
 
@@ -74,6 +76,23 @@ static CGFloat *const DefaultNbFramesPerSecond = 30;
     if (localError == nil)
     {
         [self loadSRTContent:text error:&localError];
+    }
+    
+    if(error != NULL)
+    {
+        *error = localError;
+    }
+}
+
+- (void)loadWebVTTSubtitlesAtURL:(NSURL *)url error:(NSError **)error
+{
+    NSError *localError;
+    NSString *text;
+    
+    text = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:&localError];
+    if (localError == nil)
+    {
+        [self loadWebVTTContent:text error:&localError];
     }
     
     if(error != NULL)
@@ -225,6 +244,11 @@ static CGFloat *const DefaultNbFramesPerSecond = 30;
     [self setupTimeObserver];
 }
 
+- (void)loadWebVTTContent:(NSString *)string error:(NSError **)error {
+    NSString *srtString = [[self class] srtSubtitleFromWebVTT:string];
+    [self loadSRTContent:srtString error:error];
+}
+
 - (NSTimeInterval)timeFromString:(NSString *)timeString
 {
     NSScanner *scanner;
@@ -327,6 +351,75 @@ static CGFloat *const DefaultNbFramesPerSecond = 30;
     dispatch_async(dispatch_get_main_queue(), ^{
         [self updateLabel];
     });
+}
+
++ (NSString *)srtSubtitleFromWebVTT:(NSString *)content {
+    
+    NSArray *lines = [self split:content];
+    NSString *output = @"";
+    NSInteger i = 0;
+    NSError *error;
+    NSString *newLine;
+    
+    for (NSString *line in lines) {
+        newLine = line;
+        NSCharacterSet* notDigits = [[NSCharacterSet decimalDigitCharacterSet] invertedSet];
+        
+        if([[line stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@"\n\r "]]  rangeOfCharacterFromSet:notDigits].location == NSNotFound) {
+            continue;
+        }
+        
+        NSString *pattern1 = @"(\\d{2}):(\\d{2}):(\\d{2})\\.(\\d{3})"; // '01:52:52.554'
+        NSString *pattern2 = @"(\\d{2}):(\\d{2})\\.(\\d{3})"; // '00:08.301'
+        
+        NSRegularExpression* regex = [NSRegularExpression regularExpressionWithPattern: pattern1 options:0 error:&error];
+        NSArray* matches = [regex matchesInString:line options:0 range: NSMakeRange(0, line.length)];
+        
+        NSString *pattern ;
+        NSString *template;
+        
+        if (matches.count) {
+            pattern = pattern1;
+            template = @"$1:$2:$3,$4";
+        } else {
+            regex = [NSRegularExpression regularExpressionWithPattern: pattern2 options:0 error:&error];
+            matches = [regex matchesInString:line options:0 range: NSMakeRange(0, line.length)];
+            if (matches.count) {
+                pattern = pattern2;
+                template = @"00:$1:$2,$3";
+            }
+        }
+        
+        if (matches.count && !error) {
+            i++;
+            output = [output stringByAppendingString:@"\r\n\r\n"];
+            output = [output stringByAppendingString:[@(i) stringValue]];
+            output = [output stringByAppendingString:@"\r\n"];
+            
+            newLine = [line stringByReplacingWithPattern:pattern withTemplate:template error:&error];
+        }
+        
+        if([newLine containsString:@"WEBVTT"]) {
+            continue;
+        }
+        output = [output stringByAppendingString:newLine];
+        output = [output stringByAppendingString:@"\r\n"];
+    }
+    
+    return output;
+}
+
+
++ (NSArray *)split:(NSString *)content {
+    
+    NSArray *lines = [content componentsSeparatedByString: @"\n"];
+    if (lines.count == 1) {
+        lines  = [content componentsSeparatedByString: @"\r\n"];
+        if (lines.count == 1) {
+            lines  = [content componentsSeparatedByString: @"\n"];
+        }
+    }
+    return lines;
 }
 
 #pragma Time Observer
